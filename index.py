@@ -12,15 +12,11 @@ def index():
 @app.route('/get_result')
 def get_result():
     
-    question = request.args.get('question', '')
+    image = request.args.get('image_upload', '')
     
-    most_relevant_article = w.search(question, results=1)[0]
     
-    article_name, summary = utils.find_summary(question)
     
-    answer = 'Response summarized from the article: {}\n\n'.format(article_name) + summary
-    
-    return render_template('result.html').format(question, answer)
+    return render_template('result.html').format(image, 'mouse')
 
 if __name__ == '__main__':
     app.run()
