@@ -1,0 +1,86 @@
+h1 {
+    font-size: 100px;
+    color: white;
+    
+    /*background-color: cornflowerblue;*/
+    
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: 20px;
+    border-color: white;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    /*background-color: cornflowerblue;*/
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: 20px;
+    border-color: white;
+}
+
+html {
+    background: url('ai_background2.jpg') no-repeat center fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_element {
+    font-size: 40px;
+    color: white;
+    /*background-color: cornflowerblue;*/
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;   
+    height: 25%;
+    border-width: 20px;
+    border-color: white;
+}
+
+.question_input {
+    border-radius: 10px;
+    height: 50px;
+    width: 70%;
+    color: white;
+    background-color: black;
+    border-color: white;
+    font-size: 40px;
+    border-width: 5px;
+
+    
+}
+
+.submit {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    font-size: 30px;
+}
+
+.submit:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 44%;
+    width: 88%;
+    transition: 100ms;
+}
+
+.print_results {
+    font-size: 50px;
+}
