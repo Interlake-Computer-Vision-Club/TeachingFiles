@@ -11,11 +11,9 @@ def index():
 @app.route('/get_result')
 def get_result():
     
-    image = request.args.get('image_upload', '')
+    #image = request.args.get('image_upload', '')    
     
-    
-    
-    return render_template('result.html').format(image, 'mouse')
+    return render_template('result.html').format('a', 'mouse')
 
 if __name__ == '__main__':
     app.run()
