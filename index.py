@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import wikipedia as w, utils
+import utils
 
 app = Flask(__name__, template_folder='templateFiles', static_folder='staticFiles')
 
